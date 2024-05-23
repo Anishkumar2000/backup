@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.one{
+    background-image: url(https://media1.tenor.com/m/I1uKTqRLFyEAAAAC/%CF%86%CF%89%CF%84%CE%B9%CE%AC-%CE%BC.gif);
+    background-size: cover;
+    /* background-position: center; */
+    /* color: transparent; */
+    /* background-clip: text; */
+    /* -webkit-background-clip: text; */
+    font-size: 80px;
+}

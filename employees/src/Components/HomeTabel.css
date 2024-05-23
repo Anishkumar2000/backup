@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hmhead{
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+}
+
+.thead{
+    height: 7vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+}
+.thead div{
+    height: 7vh;
+    width: 13%;
+    border: 0.15rem solid black ;
+}
+.tbody{
+    height: 65vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+    background-color: aqua;
+}
+.tbody .tbody1{
+    height: 7vh;
+    width: 100%;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    /* border: 0.1rem solid black ; */
+}
+h2{
+    text-align: center;
+}
+
+.tbody .tbody1 div{
+    height: 7vh;
+    width: 13%;
+    border: 0.1rem solid black ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+}
+.edit_save{
+    height: 4vh;
+    width: 35%;
+    background-color: green;
+    border: none;
+    color: white;
+
+}
+.delete{
+    height: 4vh;
+    width: 35%;
+    background-color: red;
+    border: none;
+    color: white;
+}
+
+.tbody1 div input{
+    height: 5vh;
+    width: 100%;
+    outline: none;
+    border: none;
+    color: orangered;
+    text-align: center;
+    background-color: transparent;   
+}
+.edit{
+    height: 7vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: orange; */
+}
+.edit div{
+    height: 7vh;
+    width: 13%;
+    border: 0.1rem solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+
+}
+.edit div input{
+    height: 5vh;
+    width: 100%;
+    outline: none;
+    border: none;
+    color: orangered;
+    text-align: center;
+    background-color: transparent;  
+}
+.add{
+    height: 4vh;
+    width: 35%;
+    background-color: green;
+    border: none;
+    color: white;
+}
+.clear{
+    height: 4vh;
+    width: 35%;
+    background-color: red;
+    border: none;
+    color: white;
+}
+
+
+
+
+footer{
+    height: 13vh;
+    width: 100%;
+    background-color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+

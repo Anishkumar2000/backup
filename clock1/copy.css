@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    height: 60%;
+    width: 30%;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.clock{
+    height: 30vh;
+    width: 50%;
+    background-color: white;
+    border-radius: 50%;
+    border: 0.2rem solid black;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+    
+}
+
+.dot{
+    height: 0.5rem;
+    width: 4%;
+    background-color: violet;
+    border-radius: 50%;
+           
+}
+.hour{
+    height: 0.3rem;
+    width: 40%;
+    background-color: red;
+    position: absolute;
+    left: 6rem;
+    transform-origin: left;
+    transform: translate(0%, 80%);
+    
+
+}
+
+.ak{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    /* background-color: orangered; */
+    text-align: center;   
+}
+.one{
+    /* transform: rotate(30deg); */
+    transform: translate(20%, 7%);
+}
+.two{
+    /* transform: rotate(60deg);  */
+    transform: translate(35%, 22%);
+}
+.three{
+    /* transform: rotate(90deg); */
+    transform: translate(43%, 45%);
+}
+.four{
+    /* transform: rotate(120deg); */
+    transform: translate(35%, 70%);
+}
+.five{
+    /* transform: rotate(150deg); */
+    transform: translate(20%, 83%);
+}
+.six{
+    /* transform: rotate(180deg); */
+    transform: translate(0%, 88%);
+}
+.seven{
+    transform: rotate(210deg);
+    transform: translate(-20%, 83%);
+}
+.eight{
+    /* transform: rotate(240deg); */
+    transform: translate(-35%, 70%);
+}
+.nine{
+    /* transform: rotate(270deg); */
+    transform: translate(-43%, 45%);
+}
+.ten{
+    /* transform: rotate(300deg); */
+    transform: translate(-35%, 22%);
+}
+.eleven{
+    /* transform: rotate(330deg); */
+    transform: translate(-20%, 7%);
+}
+.twelve{
+    /* transform: rotate(360deg); */
+    transform: translate(0%, 2%);
+}

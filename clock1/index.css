@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    height: 60%;
+    width: 30%;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.clock{
+    height: 50%;
+    width: 45%;
+    background-color: white;
+    border-radius: 50%;
+    border: 0.3rem solid orangered;
+    position: relative; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+
+}
+.dot{
+    height: 4.35%;
+    width: 4%;
+    border-radius: 100%;
+    position: absolute;
+    background-color: black;
+}
+.hour{
+    height: 20%;
+    width: 2%;
+    background-color: orangered;
+    position: absolute;
+    top: 30%;
+    animation: hour 216000s linear infinite;
+    transform-origin: bottom;
+    border-radius: 70% 70% 0% 0%;
+
+}
+@keyframes hour{
+    from{
+        transform: rotateZ(0deg);
+    }
+    to{
+        transform: rotateZ(360deg);
+    }
+}
+.minutes{
+    height: 30%;
+    width: 2%;
+    background-color: rgba(11, 255, 64, 1);
+    position: absolute;
+    top: 20%;
+    animation: minutes 3600s linear infinite;
+    transform-origin: bottom;
+    border-radius: 70% 70% 0% 0%;
+
+}
+@keyframes minutes{
+    from{
+        transform: rotateZ(0deg);
+    }
+    to{
+        transform: rotateZ(360deg);
+    }
+}
+.seconds{
+    height: 40%;
+    width: 2%;
+    background-color: gold;
+    position: absolute;
+    top: 10%;
+    animation: seconds 60s linear infinite;
+    transform-origin: bottom;
+    border-radius: 70% 70% 0% 0%;
+
+}
+@keyframes seconds{
+    from{
+        transform: rotateZ(0deg);
+    }
+    to{
+        transform: rotateZ(360deg);
+    }
+}
+.ak{
+    height: 100%;
+    width: 100%;
+    /* background-color: orange; */
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    padding: 2% 2%;
+    
+
+}
+.ak p{
+    height: 10%;
+    width: 10%;
+    text-align: center;
+    color: rgba(195, 0, 101, 1);
+    /* background-color: green; */
+}
+.one{
+    transform: rotate(30deg);
+    
+}
+.one p{
+    
+    rotate: -30deg;
+}
+.two{
+    transform: rotate(60deg);
+    
+}
+.two p{
+    
+    rotate: -60deg;
+}
+.three{
+    transform: rotate(90deg);
+    
+    
+}
+.three p{
+    
+    rotate: -90deg;
+}
+.four{
+    transform: rotate(120deg);
+    
+}
+.four p{
+    
+    rotate: -120deg;
+}
+.five{
+    transform: rotate(150deg);
+    
+}
+.five p{
+    rotate: -150deg;
+}
+.six{
+    transform: rotate(180deg);
+    
+}
+.six p{
+    
+    rotate: 180deg;
+}
+.seven{
+    transform: rotate(210deg);
+    
+}
+.seven p{
+    
+    rotate: 150deg;
+}
+.eight{
+    transform: rotate(240deg);
+    
+}
+.eight p{
+    
+    rotate: 120deg;
+}
+.nine{
+    transform: rotate(270deg);
+    
+}
+.nine p{
+    
+    rotate: 90deg;
+}
+.ten{
+    transform: rotate(300deg);
+    
+}
+.ten p{
+    
+    rotate: 60deg;
+}
+.eleven{
+    transform: rotate(330deg);
+    
+}
+.eleven p{
+    
+    rotate: 30deg;
+}
+.twelve{
+    transform: rotate(360deg);
+    
+}
+
